@@ -511,6 +511,8 @@ dtb-$(CONFIG_ARCH_SDM429) += sdm429-mtp.dtb \
 	sdm429-qrd.dtb \
 	sda429-mtp.dtb \
 	sda429-cdp.dtb
+
+dtb-$(CONFIG_ARCH_SDM450) += sdm450-qrd-rosy.dtb
 endif
 endif #CONFIG_BOARD_BRAMBLE CONFIG_BOARD_REDFIN CONFIG_BOARD_BARBET
 
